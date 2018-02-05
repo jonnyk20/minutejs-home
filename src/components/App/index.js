@@ -16,6 +16,13 @@ function App({ name }) {
         A minute is way too short of time to learn some Javascript... <br />
         ..but it's just enough to introduce some fun and useful topics. Each
         video has links to free resources where you can learn more. Enjoy!
+        <div>
+          I'm these videos every day on{' '}
+          <a href="https://www.instagram.com/minutejs/">Instagram</a> and
+          <a href="https://www.youtube.com/channel/UC8Ti7Y7PQhNCnHk5jHmoCDA">
+            Youtube
+          </a>!
+        </div>
       </Intro>
       <LessonsContainer />
     </div>
@@ -23,7 +30,7 @@ function App({ name }) {
 }
 
 const Intro = styled.div`
-  border: solid 1px black;
+  border: none;
 `;
 
 App.propTypes = {

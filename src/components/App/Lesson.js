@@ -4,7 +4,6 @@ import InstagramEmbed from 'react-instagram-embed';
 const Lessons = () => {
   return (
     <div>
-      Lesson
       <div>
         <InstagramEmbed
           containerTagName="div"
