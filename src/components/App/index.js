@@ -20,6 +20,7 @@ function App({ name }) {
           I'm these videos every day on{' '}
           <a href="https://www.instagram.com/minutejs/">Instagram</a> and
           <a href="https://www.youtube.com/channel/UC8Ti7Y7PQhNCnHk5jHmoCDA">
+            {' '}
             Youtube
           </a>!
         </div>
