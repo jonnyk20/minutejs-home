@@ -15,7 +15,7 @@ const Lessons = () => {
           onLoading={() => {}}
           onSuccess={() => {}}
           protocol=""
-          url="https://www.instagram.com/p/BcIH0s0jVJt/"
+          url="https://www.instagram.com/p/Beza7dkB_lK/"
         />
       </div>
     </div>
