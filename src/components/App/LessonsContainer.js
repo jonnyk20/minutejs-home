@@ -24,7 +24,24 @@ const lessons = [
           'https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/'
       }
     ]
-  }
+  },
+  {
+    id: 3,
+    title: 'ES6 Arrow Functions pt. 2 Scoping',
+    link: 'https://www.instagram.com/p/Be3NxqNBzlZ/',
+    resources: [
+      {
+        anchorText: 'MDN Documentation',
+        link:
+          'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions'
+      },
+      {
+        anchorText: 'Learn ES6 The Dope Way Part II: Arrow functions and the ‘this’ keyword',
+        link:
+          'https://medium.freecodecamp.org/learn-es6-the-dope-way-part-ii-arrow-functions-and-the-this-keyword-381ac7a32881'
+      }
+    ]
+  },
 ];
 
 class LessonsContainer extends Component {
@@ -57,9 +74,11 @@ class LessonsContainer extends Component {
   };
 
   renderLessons = () => {
-    return lessons.map(lesson => {
-      return <Lesson key={lesson.id}
-lesson={lesson} />;
+    return lessons.sort((a, b) => b.id - a.id).map(lesson => {
+      return (<Lesson
+        key={lesson.id}
+        lesson={lesson}
+              />);
     });
   };
 

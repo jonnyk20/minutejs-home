@@ -16,17 +16,18 @@ const Lesson = ({ lesson: { title, link, resources } }) => {
   return (
     <LessonContainer>
       <div>
-        <InstagramEmbed
+        {link ? <InstagramEmbed
           containerTagName="div"
           hideCaption
           maxWidth={400}
-          onAfterRender={() => {}}
-          onFailure={() => {}}
-          onLoading={() => {}}
-          onSuccess={() => {}}
+          onAfterRender={() => { }}
+          onFailure={() => { }}
+          onLoading={() => { }}
+          onSuccess={() => { }}
           protocol=""
           url={link}
-        />
+                /> : (<NoLink> <h4>{title} </h4> Check back in 5 minutes for the video! </NoLink>)}
+
       </div>
       <div>
         {resources.length > 0 && (
@@ -46,6 +47,17 @@ const LessonContainer = styled.div`
   border: solid 1px #eee;
   border-radius: 10px;
   background-color: #d7ebff;
+  width: 400px;
+
+`;
+
+const NoLink = styled.div`
+  background-color: white;
+  height: 350px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `;
 
 Lesson.propTypes = {
