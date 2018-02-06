@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Lesson from './Lesson';
 
 const lessons = [
@@ -12,18 +12,36 @@ const lessons = [
     id: 2,
     title: 'ES6 Arrow Functions',
     link: 'https://www.instagram.com/p/Be0sa-chj3-/',
-    resources: []
+    resources: [
+      {
+        anchorText: 'MDN Documentation',
+        link:
+          'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions'
+      },
+      {
+        anchorText: 'Sitepoint Article',
+        link:
+          'https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/'
+      }
+    ]
   }
 ];
 
-const LessonsContainer = () => {
-  return (
-    <div>
+class LessonsContainer extends Component {
+  renderLessons = () => {
+    return lessons.map(lesson => {
+      return <Lesson key={lesson.id}
+lesson={lesson} />;
+    });
+  };
+
+  render() {
+    return (
       <div>
-        <Lesson />
+        <div style={{ display: 'flex' }}>{this.renderLessons()}</div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default LessonsContainer;
