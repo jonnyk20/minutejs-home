@@ -42,6 +42,23 @@ const lessons = [
       }
     ]
   },
+  {
+    id: 4,
+    title: 'ES6 Object Destructuring',
+    link: 'https://www.instagram.com/p/Be51G17hZDu/',
+    resources: [
+      {
+        anchorText: 'A Dead Simple Intro to Destcructuring Javascript Objects (Wes Bos)',
+        link:
+          'http://wesbos.com/destructuring-objects/'
+      },
+      {
+        anchorText: 'Exploring JS: Object Destructuring',
+        link:
+          'http://exploringjs.com/es6/ch_destructuring.html#_object-destructuring'
+      }
+    ]
+  }
 ];
 
 class LessonsContainer extends Component {
@@ -85,7 +102,7 @@ class LessonsContainer extends Component {
   render() {
     return (
       <div>
-        <div style={{ display: 'flex' }}>{this.renderLessons()}</div>
+        <div style={{ display: 'flex', flexWrap: 'wrap' }}>{this.renderLessons()}</div>
       </div>
     );
   }

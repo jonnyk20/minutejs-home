@@ -47,7 +47,7 @@ const LessonContainer = styled.div`
   border: solid 1px #eee;
   border-radius: 10px;
   background-color: #d7ebff;
-  width: 400px;
+  width: 350px;
 
 `;
 
