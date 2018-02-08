@@ -58,6 +58,23 @@ const lessons = [
           'http://exploringjs.com/es6/ch_destructuring.html#_object-destructuring'
       }
     ]
+  },
+  {
+    id: 5,
+    title: 'ES6 Nested Object Destructuring',
+    link: 'https://www.instagram.com/p/Be8Xeu0Buw8/',
+    resources: [
+      {
+        anchorText: 'Destructuring Nested Objects',
+        link:
+          'https://medium.com/@pyrolistical/destructuring-nested-objects-9dabdd01a3b8'
+      },
+      {
+        anchorText: 'MDN Documentation',
+        link:
+          'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring'
+      }
+    ]
   }
 ];
 

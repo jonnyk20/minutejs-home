@@ -58,6 +58,7 @@ const NoLink = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 15px;
 `;
 
 Lesson.propTypes = {
