@@ -75,6 +75,18 @@ const lessons = [
           'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring'
       }
     ]
+  },
+  {
+    id: 6,
+    title: 'ES6 Parameter Destructuring',
+    link: '',
+    resources: [
+      {
+        anchorText: 'Destructuring and parameter handling in ECMAScript 6',
+        link:
+          'http://2ality.com/2015/01/es6-destructuring.html'
+      }
+    ]
   }
 ];
 
