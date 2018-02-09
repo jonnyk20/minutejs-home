@@ -26,7 +26,7 @@ const Lesson = ({ lesson: { title, link, resources } }) => {
           onSuccess={() => { }}
           protocol=""
           url={link}
-                /> : (<NoLink> <h4>{title} </h4> Check back in 5 minutes for the video! </NoLink>)}
+                /> : (<NoLink> <h4>{title} </h4> Check back in 10 minutes for the video! </NoLink>)}
 
       </div>
       <div>

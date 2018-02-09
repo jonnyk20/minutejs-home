@@ -79,7 +79,7 @@ const lessons = [
   {
     id: 6,
     title: 'ES6 Parameter Destructuring',
-    link: '',
+    link: 'https://www.instagram.com/p/Be_C3H9Bu3x/',
     resources: [
       {
         anchorText: 'Destructuring and parameter handling in ECMAScript 6',
