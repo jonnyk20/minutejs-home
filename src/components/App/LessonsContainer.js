@@ -91,7 +91,7 @@ const lessons = [
   {
     id: 7,
     title: 'ES6 Default Parameters',
-    link: '',
+    link: 'https://www.instagram.com/p/BfB0g7Khw80/',
     resources: [
       {
         anchorText: 'MDN Docs - Default Parameters',
