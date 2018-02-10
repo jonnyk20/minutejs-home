@@ -87,6 +87,23 @@ const lessons = [
           'http://2ality.com/2015/01/es6-destructuring.html'
       }
     ]
+  },
+  {
+    id: 7,
+    title: 'ES6 Default Parameters',
+    link: '',
+    resources: [
+      {
+        anchorText: 'MDN Docs - Default Parameters',
+        link:
+          'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters'
+      },
+      {
+        anchorText: 'CSS Tricks - Using Default Parameters in ES6',
+        link:
+          'https://css-tricks.com/using-default-parameters-es6/'
+      }
+    ]
   }
 ];
 
