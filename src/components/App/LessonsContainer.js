@@ -108,7 +108,7 @@ const lessons = [
   {
     id: 8,
     title: 'ES6 Array Destructuring',
-    link: '',
+    link: 'https://www.instagram.com/p/BfELuoOhw-D',
     resources: [
       {
         anchorText: 'MDN Docs - Destructuring Assignment',
