@@ -104,6 +104,23 @@ const lessons = [
           'https://css-tricks.com/using-default-parameters-es6/'
       }
     ]
+  },
+  {
+    id: 8,
+    title: 'ES6 Array Destructuring',
+    link: '',
+    resources: [
+      {
+        anchorText: 'MDN Docs - Destructuring Assignment',
+        link:
+          'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment'
+      },
+      {
+        anchorText: 'ES6: Destructuring — an elegant way of extracting data from arrays and objects in JavaScript',
+        link:
+          'http://www.deadcoderising.com/2017-03-28-es6-destructuring-an-elegant-way-of-extracting-data-from-arrays-and-objects-in-javascript/'
+      }
+    ]
   }
 ];
 
