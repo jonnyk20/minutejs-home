@@ -121,6 +121,28 @@ const lessons = [
           'http://www.deadcoderising.com/2017-03-28-es6-destructuring-an-elegant-way-of-extracting-data-from-arrays-and-objects-in-javascript/'
       }
     ]
+  },
+  {
+    id: 9,
+    title: 'ES6 Property Value Shorthand',
+    link: '',
+    resources: [
+      {
+        anchorText: 'Object initializer (MDN)',
+        link:
+          'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer'
+      },
+      {
+        anchorText: 'ECMAScript 6 and Object Literal Property Value Shorthand',
+        link:
+          'http://www.deadcoderising.com/2017-03-28-es6-destructuring-an-elegant-way-of-extracting-data-from-arrays-and-objects-in-javascript/'
+      },
+      {
+        anchorText: 'Learning ES6: Enhanced object literals',
+        link:
+          'http://www.benmvp.com/learning-es6-enhanced-object-literals/'
+      }
+    ]
   }
 ];
 
@@ -165,7 +187,7 @@ class LessonsContainer extends Component {
   render() {
     return (
       <div>
-        <div style={{ display: 'flex', flexWrap: 'wrap' }}>{this.renderLessons()}</div>
+        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>{this.renderLessons()}</div>
       </div>
     );
   }
