@@ -125,7 +125,7 @@ const lessons = [
   {
     id: 9,
     title: 'ES6 Property Value Shorthand',
-    link: '',
+    link: 'https://www.instagram.com/p/BfG_05UBxty',
     resources: [
       {
         anchorText: 'Object initializer (MDN)',
