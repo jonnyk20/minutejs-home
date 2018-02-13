@@ -143,6 +143,28 @@ const lessons = [
           'http://www.benmvp.com/learning-es6-enhanced-object-literals/'
       }
     ]
+  },
+  {
+    id: 10,
+    title: 'ES6 Computed Property Names',
+    link: '',
+    resources: [
+      {
+        anchorText: 'Object initializer (MDN)',
+        link:
+          'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer'
+      },
+      {
+        anchorText: 'ECMAScript 6 and Object Literal Property Value Shorthand',
+        link:
+          'http://www.deadcoderising.com/2017-03-28-es6-destructuring-an-elegant-way-of-extracting-data-from-arrays-and-objects-in-javascript/'
+      },
+      {
+        anchorText: 'Learning ES6: Enhanced object literals',
+        link:
+          'http://www.benmvp.com/learning-es6-enhanced-object-literals/'
+      }
+    ]
   }
 ];
 
