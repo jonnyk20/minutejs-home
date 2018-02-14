@@ -147,7 +147,7 @@ const lessons = [
   {
     id: 10,
     title: 'ES6 Computed Property Names',
-    link: '',
+    link: 'https://www.instagram.com/p/BfJq5wYhG52',
     resources: [
       {
         anchorText: 'Object initializer (MDN)',
@@ -163,6 +163,23 @@ const lessons = [
         anchorText: 'Learning ES6: Enhanced object literals',
         link:
           'http://www.benmvp.com/learning-es6-enhanced-object-literals/'
+      }
+    ]
+  },
+  {
+    id: 11,
+    title: 'ES6 Enhanced Method Properties',
+    link: '',
+    resources: [
+      {
+        anchorText: 'ES6 Features: Method Properties',
+        link:
+          'http://es6-features.org/#MethodProperties'
+      },
+      {
+        anchorText: 'MDN DOCS: Method Definitions',
+        link:
+          'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions'
       }
     ]
   }
