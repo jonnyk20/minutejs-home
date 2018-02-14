@@ -169,7 +169,7 @@ const lessons = [
   {
     id: 11,
     title: 'ES6 Enhanced Method Properties',
-    link: '',
+    link: 'https://www.instagram.com/p/BfLwXGnBUqL',
     resources: [
       {
         anchorText: 'ES6 Features: Method Properties',
@@ -219,7 +219,7 @@ class LessonsContainer extends Component {
       return (<Lesson
         key={lesson.id}
         lesson={lesson}
-              />);
+      />);
     });
   };
 
