@@ -185,13 +185,13 @@ const lessons = [
   },
   {
     id: 12,
-    title: 'ES6 \'Var\' vs. \'Let\' and \'Const\'',
-    link: 'http://wesbos.com/let-vs-const/',
+    title: 'ES6 \'var\' vs. \'let\' and \'const\'',
+    link: 'https://www.instagram.com/p/BfObTM1BMCa',
     resources: [
       {
         anchorText: 'Wes Bos: ES6 let VS const variables',
         link:
-          'JavaScript ES6+: var, let, or const?'
+          'http://wesbos.com/let-vs-const/'
       },
       {
         anchorText: 'MDN DOCS: Method Definitions',
