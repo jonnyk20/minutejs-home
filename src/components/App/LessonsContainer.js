@@ -182,6 +182,23 @@ const lessons = [
           'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions'
       }
     ]
+  },
+  {
+    id: 12,
+    title: 'ES6 \'Var\' vs. \'Let\' and \'Const\'',
+    link: 'http://wesbos.com/let-vs-const/',
+    resources: [
+      {
+        anchorText: 'Wes Bos: ES6 let VS const variables',
+        link:
+          'JavaScript ES6+: var, let, or const?'
+      },
+      {
+        anchorText: 'MDN DOCS: Method Definitions',
+        link:
+          'https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75'
+      }
+    ]
   }
 ];
 
@@ -219,7 +236,7 @@ class LessonsContainer extends Component {
       return (<Lesson
         key={lesson.id}
         lesson={lesson}
-      />);
+              />);
     });
   };
 
