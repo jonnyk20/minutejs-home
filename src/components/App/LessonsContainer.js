@@ -201,7 +201,7 @@ const lessons = [
     ]
   },
   {
-    id: 12,
+    id: 13,
     title: 'ES6 Variable Scoping',
     link: 'https://www.instagram.com/p/BfQ_c9gBYP9',
     resources: [
