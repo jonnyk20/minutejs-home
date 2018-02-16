@@ -199,6 +199,23 @@ const lessons = [
           'https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75'
       }
     ]
+  },
+  {
+    id: 12,
+    title: 'ES6 Variable Scoping',
+    link: 'https://www.instagram.com/p/BfQ_c9gBYP9',
+    resources: [
+      {
+        anchorText: 'The Joys of Block Scoping With ES6',
+        link:
+          'https://www.sitepoint.com/joys-block-scoping-es6/'
+      },
+      {
+        anchorText: 'ES6: var, let and const — The battle between function scope and block scope',
+        link:
+          'http://www.deadcoderising.com/2017-04-11-es6-var-let-and-const-the-battle-between-function-scope-and-block-scope/'
+      }
+    ]
   }
 ];
 
