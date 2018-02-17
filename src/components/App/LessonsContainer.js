@@ -220,7 +220,7 @@ const lessons = [
   {
     id: 14,
     title: 'ES6 Template Literals',
-    link: '',
+    link: 'https://www.instagram.com/p/BfTxicHBu5Z',
     resources: [
       {
         anchorText: 'MDN Docs: Template Literals',
@@ -231,6 +231,11 @@ const lessons = [
         anchorText: 'Getting Literal With ES6 Template Strings',
         link:
           'https://developers.google.com/web/updates/2015/01/ES6-Template-Strings'
+      },
+      {
+        anchorText: 'CSS Tricks: Template Literals',
+        link:
+          'https://css-tricks.com/template-literals'
       }
     ]
   }
@@ -267,10 +272,12 @@ class LessonsContainer extends Component {
 
   renderLessons = () => {
     return lessons.sort((a, b) => b.id - a.id).map(lesson => {
-      return (<Lesson
-        key={lesson.id}
-        lesson={lesson}
-      />);
+      return (
+        <Lesson
+          key={lesson.id}
+          lesson={lesson}
+        />
+      );
     });
   };
 
