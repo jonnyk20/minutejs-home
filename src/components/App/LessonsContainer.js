@@ -216,6 +216,23 @@ const lessons = [
           'http://www.deadcoderising.com/2017-04-11-es6-var-let-and-const-the-battle-between-function-scope-and-block-scope/'
       }
     ]
+  },
+  {
+    id: 14,
+    title: 'ES6 Template Literals',
+    link: '',
+    resources: [
+      {
+        anchorText: 'MDN Docs: Template Literals',
+        link:
+          'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals'
+      },
+      {
+        anchorText: 'Getting Literal With ES6 Template Strings',
+        link:
+          'https://developers.google.com/web/updates/2015/01/ES6-Template-Strings'
+      }
+    ]
   }
 ];
 
@@ -253,7 +270,7 @@ class LessonsContainer extends Component {
       return (<Lesson
         key={lesson.id}
         lesson={lesson}
-              />);
+      />);
     });
   };
 
