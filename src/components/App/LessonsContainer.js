@@ -242,7 +242,7 @@ const lessons = [
   {
     id: 15,
     title: 'ES6 \'for...of\' loop',
-    link: '',
+    link: 'https://www.instagram.com/p/BfW90ihhPOq',
     resources: [
       {
         anchorText: 'MDN Docs: for..of',
