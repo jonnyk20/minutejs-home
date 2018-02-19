@@ -238,6 +238,23 @@ const lessons = [
           'https://css-tricks.com/template-literals'
       }
     ]
+  },
+  {
+    id: 15,
+    title: 'ES6 \'for...of\' loop',
+    link: '',
+    resources: [
+      {
+        anchorText: 'MDN Docs: for..of',
+        link:
+          'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of'
+      },
+      {
+        anchorText: 'The for-of loop - Exploring JS',
+        link:
+          'http://exploringjs.com/es6/ch_for-of.html'
+      }
+    ]
   }
 ];
 
