@@ -255,6 +255,23 @@ const lessons = [
           'http://exploringjs.com/es6/ch_for-of.html'
       }
     ]
+  },
+  {
+    id: 16,
+    title: 'Transpiling ES6 With Babel',
+    link: 'https://www.instagram.com/p/BfZmWK4hlUA',
+    resources: [
+      {
+        anchorText: 'CSS Tricks: Transpiling ES6',
+        link:
+          'https://css-tricks.com/transpiling-es6'
+      },
+      {
+        anchorText: 'Babel',
+        link:
+          'https://babeljs.io/'
+      }
+    ]
   }
 ];
 
