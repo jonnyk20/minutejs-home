@@ -272,6 +272,28 @@ const lessons = [
           'https://babeljs.io/'
       }
     ]
+  },
+  {
+    id: 17,
+    title: 'ES6 Spread Operator',
+    link: '',
+    resources: [
+      {
+        anchorText: 'ES6 Features: Spread Operator',
+        link:
+          'http://es6-features.org/#SpreadOperator'
+      },
+      {
+        anchorText: '6 Great Uses of the Spread Operator',
+        link:
+          'https://davidwalsh.name/spread-operator'
+      },
+      {
+        anchorText: 'MDN Docs: Spread Syntax',
+        link:
+          'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax'
+      }
+    ]
   }
 ];
 
