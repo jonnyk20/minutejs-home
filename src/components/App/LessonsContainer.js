@@ -276,7 +276,7 @@ const lessons = [
   {
     id: 17,
     title: 'ES6 Spread Operator',
-    link: '',
+    link: 'https://www.instagram.com/p/BfcIYdqhhRv',
     resources: [
       {
         anchorText: 'ES6 Features: Spread Operator',
