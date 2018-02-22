@@ -298,7 +298,7 @@ const lessons = [
   {
     id: 18,
     title: 'ES6 Rest Parameter',
-    link: '',
+    link: 'https://www.instagram.com/p/BfetSwRh_OF',
     resources: [
       {
         anchorText: 'MDN DOCS: ES6 Rest Parameters',
