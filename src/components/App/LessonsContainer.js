@@ -294,6 +294,23 @@ const lessons = [
           'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax'
       }
     ]
+  },
+  {
+    id: 18,
+    title: 'ES6 Rest Parameter',
+    link: '',
+    resources: [
+      {
+        anchorText: 'MDN DOCS: ES6 Rest Parameters',
+        link:
+          'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters'
+      },
+      {
+        anchorText: 'How to Use ES6 Arguments and Parameters',
+        link:
+          'https://www.smashingmagazine.com/2016/07/how-to-use-arguments-and-parameters-in-ecmascript-6/'
+      }
+    ]
   }
 ];
 
