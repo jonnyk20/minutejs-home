@@ -311,6 +311,23 @@ const lessons = [
           'https://www.smashingmagazine.com/2016/07/how-to-use-arguments-and-parameters-in-ecmascript-6/'
       }
     ]
+  },
+  {
+    id: 19,
+    title: 'ES6 Sets',
+    link: '',
+    resources: [
+      {
+        anchorText: 'MDN DOCS: ES6 Sets',
+        link:
+          'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set'
+      },
+      {
+        anchorText: 'ES6 Working with Sets in Javascript',
+        link:
+          'http://www.deadcoderising.com/es6-working-with-sets-in-javascript/'
+      }
+    ]
   }
 ];
 
