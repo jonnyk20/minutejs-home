@@ -315,7 +315,7 @@ const lessons = [
   {
     id: 19,
     title: 'ES6 Sets',
-    link: '',
+    link: 'https://www.instagram.com/p/BfhU2hUhSPj',
     resources: [
       {
         anchorText: 'MDN DOCS: ES6 Sets',
