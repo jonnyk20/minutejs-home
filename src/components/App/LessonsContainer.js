@@ -332,7 +332,7 @@ const lessons = [
   {
     id: 20,
     title: 'ES6 Maps',
-    link: '',
+    link: 'https://www.instagram.com/p/Bfj1OqghckG',
     resources: [
       {
         anchorText: 'MDN DOCS: ES6 Maps',
