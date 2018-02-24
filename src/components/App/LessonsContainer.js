@@ -328,6 +328,28 @@ const lessons = [
           'http://www.deadcoderising.com/es6-working-with-sets-in-javascript/'
       }
     ]
+  },
+  {
+    id: 20,
+    title: 'ES6 Maps',
+    link: '',
+    resources: [
+      {
+        anchorText: 'MDN DOCS: ES6 Maps',
+        link:
+          'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map'
+      },
+      {
+        anchorText: 'What you Should Know About ES6 Maps',
+        link:
+          'https://hackernoon.com/what-you-should-know-about-es6-maps-dc66af6b9a1e'
+      },
+      {
+        anchorText: 'ES6 Maps in Depth',
+        link:
+          'https://ponyfoo.com/articles/es6-maps-in-depth'
+      }
+    ]
   }
 ];
 
