@@ -350,6 +350,12 @@ const lessons = [
           'https://ponyfoo.com/articles/es6-maps-in-depth'
       }
     ]
+  },
+  {
+    id: 21,
+    title: 'How to Win a Hackathon: Tip #1',
+    link: '',
+    resources: []
   }
 ];
 
