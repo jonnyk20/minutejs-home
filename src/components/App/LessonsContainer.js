@@ -358,9 +358,15 @@ const lessons = [
     resources: []
   },
   {
-    id: 21,
+    id: 22,
     title: 'How to Win a Hackathon: Tip #2',
     link: 'https://www.instagram.com/p/BfuG9afhJhJ',
+    resources: []
+  },
+  {
+    id: 23,
+    title: 'How to Win a Hackathon: Tip #3',
+    link: '',
     resources: []
   }
 ];
