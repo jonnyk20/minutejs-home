@@ -380,6 +380,17 @@ const lessons = [
     title: 'How to Win a Hackathon: Tip #5',
     link: 'https://www.instagram.com/p/Bf1kNEvBd8V',
     resources: []
+  },
+  {
+    id: 26,
+    title: 'ES6 Find',
+    link: '',
+    resources: [
+      {
+        anchorText: 'MDN Docs: Array.prototype.find()',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find'
+      }
+    ]
   }
 ];
 
