@@ -384,7 +384,7 @@ const lessons = [
   {
     id: 26,
     title: 'ES6 Find',
-    link: '',
+    link: 'https://www.instagram.com/p/Bf4wnvABMcO',
     resources: [
       {
         anchorText: 'MDN Docs: Array.prototype.find()',
