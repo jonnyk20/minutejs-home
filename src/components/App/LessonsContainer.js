@@ -395,7 +395,7 @@ const lessons = [
   {
     id: 27,
     title: 'ES6 findIndex',
-    link: '',
+    link: 'https://www.instagram.com/p/Bf7Web8h4vV',
     resources: [
       {
         anchorText: 'MDN Docs: Array.prototype.findIndex()',
