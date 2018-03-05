@@ -391,6 +391,17 @@ const lessons = [
         link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find'
       }
     ]
+  },
+  {
+    id: 27,
+    title: 'ES6 findIndex',
+    link: '',
+    resources: [
+      {
+        anchorText: 'MDN Docs: Array.prototype.findIndex()',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex'
+      }
+    ]
   }
 ];
 
