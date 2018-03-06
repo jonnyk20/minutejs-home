@@ -402,6 +402,21 @@ const lessons = [
         link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex'
       }
     ]
+  },
+  {
+    id: 28,
+    title: 'Fetch API',
+    link: '',
+    resources: [
+      {
+        anchorText: 'MDN Docs: Fetch API',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API'
+      },
+      {
+        anchorText: 'Google Dev: Introduction to fetch()',
+        link: 'https://developers.google.com/web/updates/2015/03/introduction-to-fetch'
+      }
+    ]
   }
 ];
 
