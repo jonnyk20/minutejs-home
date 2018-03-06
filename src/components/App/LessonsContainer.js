@@ -406,7 +406,7 @@ const lessons = [
   {
     id: 28,
     title: 'Fetch API',
-    link: '',
+    link: 'https://www.instagram.com/p/Bf92TT9BCtL',
     resources: [
       {
         anchorText: 'MDN Docs: Fetch API',
