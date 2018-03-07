@@ -419,7 +419,7 @@ const lessons = [
     ]
   },
   {
-    id: 28,
+    id: 29,
     title: 'Fetch API: Options',
     link: 'https://www.instagram.com/p/BgAfAO_Bpin',
     resources: [
