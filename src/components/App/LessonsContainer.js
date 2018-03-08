@@ -436,7 +436,7 @@ const lessons = [
   {
     id: 30,
     title: 'Async / Await',
-    link: '',
+    link: 'https://www.instagram.com/p/BgDJn8xnyp4',
     resources: [
       {
         anchorText: 'MDN Docs: Await',
