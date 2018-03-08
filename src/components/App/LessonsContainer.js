@@ -432,6 +432,21 @@ const lessons = [
         link: 'https://developers.google.com/web/updates/2015/03/introduction-to-fetch'
       }
     ]
+  },
+  {
+    id: 30,
+    title: 'Async / Await',
+    link: '',
+    resources: [
+      {
+        anchorText: 'MDN Docs: Await',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await'
+      },
+      {
+        anchorText: 'JavaScript ES 2017: Learn Async/Await by Example',
+        link: 'https://codeburst.io/javascript-es-2017-learn-async-await-by-example-48acc58bad65'
+      }
+    ]
   }
 ];
 
